@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Fragmentado</string>
+    <string name="main_title">Controlador de Fragmentos</string>
+    <string name="main_subtitle">Selecciona una pestaña para cargar la vista correspondiente</string>
+
+    <string name="btn_inicio">Inicio</string>
+    <string name="btn_novedades">Novedades</string>
+    <string name="btn_perfil">Perfil</string>
+
+    <string name="title_inicio">Vista de Inicio</string>
+    <string name="desc_inicio">Bienvenido a la pantalla principal. Este fragmento demuestra la sustitución dinámica de vistas en Android.</string>
+    <string name="action_inicio">Incrementar contador</string>
+    <string name="status_inicio_default">Estado: Listo para interactuar</string>
+    <string name="status_inicio_updated">¡Interacción realizada! Clics acumulados: %1$d</string>
+
+    <string name="title_novedades">Últimas Novedades</string>
+    <string name="desc_novedades">Explora las últimas noticias y actualizaciones registradas en el sistema.</string>
+    <string name="action_novedades">Cargar más noticias</string>
+    <string name="status_novedades_default">Publicaciones disponibles: 5</string>
+    <string name="status_novedades_updated">Nuevas novedades cargadas (%1$d publicaciones)</string>
+
+    <string name="title_perfil">Perfil de Usuario</string>
+    <string name="desc_perfil">Gestión de datos de usuario y preferencias del sistema.</string>
+    <string name="action_perfil">Cambiar Estado</string>
+    <string name="status_perfil_default">Estado del usuario: En línea 🟢</string>
+    <string name="status_perfil_online">Estado del usuario: En línea 🟢</string>
+    <string name="status_perfil_busy">Estado del usuario: Ocupado 🔴</string>
+</resources>
