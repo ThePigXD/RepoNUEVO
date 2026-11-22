@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">SumasApp</string>
+    <string name="calculadora_title">Calculadora de Sumas</string>
+    <string name="calculadora_subtitle">Ingresa dos números para calcular su suma de forma rápida y precisa</string>
+    <string name="numero_1_hint">Primer número</string>
+    <string name="numero_2_hint">Segundo número</string>
+    <string name="btn_sumar">Calcular Suma</string>
+    <string name="btn_limpiar">Limpiar</string>
+    <string name="label_resultado">Resultado</string>
+    <string name="resultado_placeholder">0</string>
+    <string name="error_campo_requerido">Por favor ingresa un número</string>
+    <string name="error_numero_invalido">Número no válido</string>
+    <string name="copiado_al_portapapeles">Resultado copiado al portapapeles</string>
+</resources>
