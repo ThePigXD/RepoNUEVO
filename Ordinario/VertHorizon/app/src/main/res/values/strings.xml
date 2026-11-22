@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">VertHorizon</string>
+
+    <!-- MainActivity -->
+    <string name="main_title">VertHorizon</string>
+    <string name="main_subtitle">Prueba de ciclo de vida e interacción con campos de texto</string>
+    <string name="main_button_navigate">Ir al Editor de Texto</string>
+
+    <!-- TextActivity -->
+    <string name="texto_title">Visualizador de Texto</string>
+    <string name="texto_hint">Escribe tu mensaje aquí&#8230;</string>
+    <string name="texto_placeholder">Tu mensaje aparecerá aquí</string>
+    <string name="texto_button_submit">Mostrar Texto</string>
+    <string name="texto_error_empty">Por favor, ingresa un mensaje primero</string>
+    <string name="texto_success">¡Texto actualizado con éxito!</string>
+
+    <!-- Lifecycle messages -->
+    <string name="msg_created">%s: Pantalla Creada (onCreate)</string>
+    <string name="msg_started">%s: Pantalla Iniciada (onStart)</string>
+    <string name="msg_resumed">%s: Pantalla Reanudada (onResume)</string>
+    <string name="msg_paused">%s: Pantalla Pausada (onPause)</string>
+    <string name="msg_stopped">%s: Pantalla Detenida (onStop)</string>
+    <string name="msg_destroyed">%s: Pantalla Destruida (onDestroy)</string>
+</resources>
