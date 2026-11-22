@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="purple_primary">#6200EE</color>
+    <color name="purple_dark">#3700B3</color>
+    <color name="indigo_50">#E8EAF6</color>
+    <color name="indigo_700">#303F9F</color>
+    <color name="amber_50">#FFF8E1</color>
+    <color name="amber_800">#FF8F00</color>
+    <color name="gray_100">#F5F5F7</color>
+    <color name="gray_600">#757575</color>
+    <color name="text_primary">#1D1B20</color>
+    <color name="text_secondary">#49454F</color>
+</resources>
