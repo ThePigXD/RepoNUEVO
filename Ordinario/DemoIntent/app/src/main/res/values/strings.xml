@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DemoIntent</string>
+
+    <!-- Main Activity -->
+    <string name="main_title">Demostrador de Intents</string>
+    <string name="main_subtitle">Navegación y transferencia de datos entre actividades</string>
+
+    <string name="section_profile">1. Perfil de Usuario</string>
+    <string name="label_name">Nombre completo</string>
+    <string name="hint_name">Ej. Ana Martínez</string>
+    <string name="label_role">Puesto / Especialidad</string>
+    <string name="hint_role">Ej. Desarrolladora Android</string>
+    <string name="label_experience">Años de experiencia</string>
+    <string name="hint_experience">Ej. 5</string>
+    <string name="btn_open_profile">Ver Perfil (Explicit Intent)</string>
+
+    <string name="section_analyzer">2. Analizador de Texto</string>
+    <string name="label_text">Texto a analizar</string>
+    <string name="hint_text">Escribe una frase o párrafo aquí&#8230;</string>
+    <string name="btn_open_analyzer">Analizar Texto (Explicit Intent)</string>
+
+    <string name="section_converter">3. Conversor de Unidades</string>
+    <string name="label_value">Valor numérico</string>
+    <string name="hint_value">Ej. 25.5</string>
+    <string name="label_unit_type">Tipo de conversión</string>
+    <string name="unit_temp">Temperatura (°C a °F / K)</string>
+    <string name="unit_dist">Distancia (Km a Mi / m)</string>
+    <string name="unit_weight">Peso (Kg a Lb / g)</string>
+    <string name="btn_open_converter">Convertir Valor (Explicit Intent)</string>
+
+    <!-- Profile Activity -->
+    <string name="profile_title">Perfil del Usuario</string>
+    <string name="profile_subtitle">Datos recibidos mediante Intent Extras</string>
+    <string name="label_level">Nivel de Experiencia</string>
+    <string name="label_total_exp">Experiencia</string>
+    <string name="label_status">Estado</string>
+    <string name="status_active">Activo</string>
+    <string name="btn_share">Compartir Perfil</string>
+    <string name="btn_back">Regresar</string>
+
+    <!-- Text Analyzer Activity -->
+    <string name="analyzer_title">Análisis de Texto</string>
+    <string name="analyzer_subtitle">Métricas generadas a partir del Intent</string>
+    <string name="label_original_text">Texto Recibido</string>
+    <string name="stat_chars">Caracteres</string>
+    <string name="stat_words">Palabras</string>
+    <string name="stat_vowels">Vocales</string>
+    <string name="stat_read_time">Tiempo Lectura</string>
+    <string name="label_uppercase">Mayúsculas</string>
+    <string name="label_reversed">Texto Invertido</string>
+
+    <!-- Unit Converter Activity -->
+    <string name="converter_title">Resultado de Conversión</string>
+    <string name="converter_subtitle">Cálculos procesados desde el Intent</string>
+    <string name="label_base_value">Valor de Origen</string>
+    <string name="label_results">Equivalencias Calculadas</string>
+</resources>
