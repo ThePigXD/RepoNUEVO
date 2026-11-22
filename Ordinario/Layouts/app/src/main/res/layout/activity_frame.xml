@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_light"
+    tools:context=".FrameActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!-- Header Section -->
+        <LinearLayout
+            android:id="@+id/layoutHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/frame_primary"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="20dp">
+
+            <ImageView
+                android:id="@+id/ivHeaderIcon"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:contentDescription="@string/title_frame_layout"
+                android:src="@drawable/ic_frame_layout"
+                app:tint="@color/white" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvHeaderTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/title_frame_layout"
+                    android:textColor="@color/white"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvHeaderSubtitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/desc_frame_layout"
+                    android:textColor="@color/frame_bg"
+                    android:textSize="12sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- FrameLayout Stacking Demonstration Workspace -->
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cardFrameWorkspace"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            app:cardBackgroundColor="@color/surface_card"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="3dp"
+            app:strokeColor="@color/divider_stroke"
+            app:strokeWidth="1dp">
+
+            <FrameLayout
+                android:id="@+id/containerFrameDemo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="16dp">
+
+                <!-- Layer 1: Background Layer (Fills space) -->
+                <TextView
+                    android:id="@+id/viewFrameLayerBottom"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/bg_card_rounded"
+                    android:backgroundTint="@color/frame_layer_bottom"
+                    android:padding="16dp"
+                    android:text="@string/frame_layer_1"
+                    android:textColor="@color/text_primary"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <!-- Layer 2: Center Layer (layout_gravity="center") -->
+                <TextView
+                    android:id="@+id/viewFrameLayerCenter"
+                    android:layout_width="220dp"
+                    android:layout_height="140dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/bg_card_rounded"
+                    android:backgroundTint="@color/frame_layer_middle"
+                    android:elevation="6dp"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:text="@string/frame_layer_2"
+                    android:textColor="@color/white"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <!-- Layer 3: Top Start Badge (layout_gravity="top|start") -->
+                <TextView
+                    android:id="@+id/badgeTopStart"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top|start"
+                    android:layout_margin="24dp"
+                    android:background="@drawable/bg_chip_rounded"
+                    android:backgroundTint="@color/frame_layer_top"
+                    android:elevation="8dp"
+                    android:paddingHorizontal="14dp"
+                    android:paddingVertical="8dp"
+                    android:text="@string/frame_badge_top_left"
+                    android:textColor="@color/white"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+                <!-- Layer 4: Bottom End Badge (layout_gravity="bottom|end") -->
+                <TextView
+                    android:id="@+id/badgeBottomEnd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|end"
+                    android:layout_margin="24dp"
+                    android:background="@drawable/bg_chip_rounded"
+                    android:backgroundTint="@color/frame_primary"
+                    android:elevation="8dp"
+                    android:paddingHorizontal="14dp"
+                    android:paddingVertical="8dp"
+                    android:text="@string/frame_badge_bottom_right"
+                    android:textColor="@color/white"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+            </FrameLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- Back Button -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnBackToMain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:padding="14dp"
+            android:text="@string/btn_back"
+            android:textAllCaps="false"
+            android:textColor="@color/frame_primary"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:backgroundTint="@color/frame_bg"
+            app:cornerRadius="12dp"
+            app:icon="@drawable/ic_arrow_back"
+            app:iconGravity="start"
+            app:iconTint="@color/frame_primary"
+            app:strokeColor="@color/frame_primary"
+            app:strokeWidth="1dp" />
+
+    </LinearLayout>
+
+</FrameLayout>

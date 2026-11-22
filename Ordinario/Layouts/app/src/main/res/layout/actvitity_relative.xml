@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_light"
+    tools:context=".RelativeActivity">
+
+    <!-- Header View -->
+    <RelativeLayout
+        android:id="@+id/layoutHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@color/relative_primary"
+        android:padding="20dp">
+
+        <ImageView
+            android:id="@+id/ivHeaderIcon"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:contentDescription="@string/title_relative_layout"
+            android:src="@drawable/ic_relative_layout"
+            app:tint="@color/white" />
+
+        <TextView
+            android:id="@+id/tvHeaderTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_toEndOf="@id/ivHeaderIcon"
+            android:text="@string/title_relative_layout"
+            android:textColor="@color/white"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvHeaderSubtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvHeaderTitle"
+            android:layout_alignStart="@id/tvHeaderTitle"
+            android:text="@string/desc_relative_layout"
+            android:textColor="@color/relative_bg"
+            android:textSize="12sp" />
+    </RelativeLayout>
+
+    <!-- Bottom Action Button -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnBackToMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="20dp"
+        android:padding="14dp"
+        android:text="@string/btn_back"
+        android:textAllCaps="false"
+        android:textColor="@color/relative_primary"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:backgroundTint="@color/relative_bg"
+        app:cornerRadius="12dp"
+        app:icon="@drawable/ic_arrow_back"
+        app:iconGravity="start"
+        app:iconTint="@color/relative_primary"
+        app:strokeColor="@color/relative_primary"
+        app:strokeWidth="1dp" />
+
+    <!-- Center Relative Layout Canvas Container -->
+    <RelativeLayout
+        android:id="@+id/containerRelativeCanvas"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/btnBackToMain"
+        android:layout_below="@id/layoutHeader"
+        android:layout_margin="20dp"
+        android:background="@drawable/bg_card_rounded"
+        android:padding="16dp">
+
+        <!-- Reference Box in Center -->
+        <TextView
+            android:id="@+id/viewCenterRef"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/bg_card_rounded"
+            android:backgroundTint="@color/relative_center"
+            android:elevation="4dp"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="@string/relative_center_box"
+            android:textColor="@color/white"
+            android:textSize="11sp"
+            android:textStyle="bold" />
+
+        <!-- Box Above Center -->
+        <TextView
+            android:id="@+id/viewTopRelative"
+            android:layout_width="110dp"
+            android:layout_height="65dp"
+            android:layout_above="@id/viewCenterRef"
+            android:layout_alignStart="@id/viewCenterRef"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/bg_card_rounded"
+            android:backgroundTint="@color/relative_top"
+            android:gravity="center"
+            android:padding="6dp"
+            android:text="@string/relative_top_box"
+            android:textColor="@color/white"
+            android:textSize="11sp"
+            android:textStyle="bold" />
+
+        <!-- Box Below Center -->
+        <TextView
+            android:id="@+id/viewBottomRelative"
+            android:layout_width="110dp"
+            android:layout_height="65dp"
+            android:layout_below="@id/viewCenterRef"
+            android:layout_alignStart="@id/viewCenterRef"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/bg_card_rounded"
+            android:backgroundTint="@color/relative_bottom"
+            android:gravity="center"
+            android:padding="6dp"
+            android:text="@string/relative_bottom_box"
+            android:textColor="@color/white"
+            android:textSize="11sp"
+            android:textStyle="bold" />
+
+        <!-- Box Left of Center -->
+        <TextView
+            android:id="@+id/viewLeftRelative"
+            android:layout_width="85dp"
+            android:layout_height="110dp"
+            android:layout_alignTop="@id/viewCenterRef"
+            android:layout_marginEnd="12dp"
+            android:layout_toStartOf="@id/viewCenterRef"
+            android:background="@drawable/bg_card_rounded"
+            android:backgroundTint="@color/relative_left"
+            android:gravity="center"
+            android:padding="6dp"
+            android:text="@string/relative_left_box"
+            android:textColor="@color/white"
+            android:textSize="11sp"
+            android:textStyle="bold" />
+
+        <!-- Box Right of Center -->
+        <TextView
+            android:id="@+id/viewRightRelative"
+            android:layout_width="85dp"
+            android:layout_height="110dp"
+            android:layout_alignTop="@id/viewCenterRef"
+            android:layout_marginStart="12dp"
+            android:layout_toEndOf="@id/viewCenterRef"
+            android:background="@drawable/bg_card_rounded"
+            android:backgroundTint="@color/relative_right"
+            android:gravity="center"
+            android:padding="6dp"
+            android:text="@string/relative_right_box"
+            android:textColor="@color/white"
+            android:textSize="11sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

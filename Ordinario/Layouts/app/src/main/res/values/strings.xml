@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">Layouts Master</string>
+
+    <!-- Main Navigation -->
+    <string name="main_header_title">Demostración de Layouts</string>
+    <string name="main_header_subtitle">ConstraintLayout - Vista Principal</string>
+    <string name="main_info_text">Esta pantalla utiliza ConstraintLayout para organizar dinámicamente las tarjetas de navegación hacia otros tipos de layout en Android.</string>
+    <string name="card_title_constraint">Demostración ConstraintLayout</string>
+
+    <string name="title_linear_layout">Linear Layout</string>
+    <string name="desc_linear_layout">Organización secuencial horizontal y vertical con distribuciones por peso.</string>
+
+    <string name="title_relative_layout">Relative Layout</string>
+    <string name="desc_relative_layout">Posicionamiento relativo de componentes con respecto a otros o al contenedor.</string>
+
+    <string name="title_frame_layout">Frame Layout</string>
+    <string name="desc_frame_layout">Superposición de capas de vistas alineadas por gravedad.</string>
+
+    <string name="title_table_layout">Table Layout</string>
+    <string name="desc_table_layout">Estructura matricial en filas y columnas extensible para datos.</string>
+
+    <!-- Linear Activity -->
+    <string name="linear_demo_title">Demostración: LinearLayout</string>
+    <string name="linear_horizontal_section">Distribución Horizontal (weight=1)</string>
+    <string name="linear_horiz_item_1">Bloque A\n(33%)</string>
+    <string name="linear_horiz_item_2">Bloque B\n(33%)</string>
+    <string name="linear_horiz_item_3">Bloque C\n(33%)</string>
+    <string name="linear_vertical_section">Distribución Vertical</string>
+    <string name="linear_vert_item_1">Elemento 1: Superior</string>
+    <string name="linear_vert_item_2">Elemento 2: Intermedio</string>
+    <string name="linear_vert_item_3">Elemento 3: Inferior</string>
+
+    <!-- Relative Activity -->
+    <string name="relative_demo_title">Demostración: RelativeLayout</string>
+    <string name="relative_center_box">Elemento Central\n(Referencia)</string>
+    <string name="relative_top_box">Arriba\n(above center)</string>
+    <string name="relative_bottom_box">Abajo\n(below center)</string>
+    <string name="relative_left_box">Izquierda\n(toLeftOf)</string>
+    <string name="relative_right_box">Derecha\n(toRightOf)</string>
+
+    <!-- Frame Activity -->
+    <string name="frame_demo_title">Demostración: FrameLayout</string>
+    <string name="frame_layer_1">Capa Base (Fondo)</string>
+    <string name="frame_layer_2">Capa Central (gravity=center)</string>
+    <string name="frame_badge_top_left">Badge (top|start)</string>
+    <string name="frame_badge_bottom_right">Badge (bottom|end)</string>
+
+    <!-- Table Activity -->
+    <string name="table_demo_title">Demostración: TableLayout</string>
+    <string name="table_col_id">ID</string>
+    <string name="table_col_component">Componente</string>
+    <string name="table_col_type">Orientación</string>
+    <string name="table_col_status">Estado</string>
+
+    <string name="table_row1_id">#01</string>
+    <string name="table_row1_name">LinearLayout</string>
+    <string name="table_row1_type">Horiz / Vert</string>
+
+    <string name="table_row2_id">#02</string>
+    <string name="table_row2_name">RelativeLayout</string>
+    <string name="table_row2_type">Relativo</string>
+
+    <string name="table_row3_id">#03</string>
+    <string name="table_row3_name">FrameLayout</string>
+    <string name="table_row3_type">Capas</string>
+
+    <string name="table_row4_id">#04</string>
+    <string name="table_row4_name">TableLayout</string>
+    <string name="table_row4_type">Matriz</string>
+
+    <!-- Shared Actions -->
+    <string name="btn_back">Regresar al Menú Principal</string>
+    <string name="btn_explore">Explorar</string>
+</resources>
