@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Paleta de colores - Módulo de Inventario (Dev: Carlos M.) -->
+    <color name="primary">#3F51B5</color>
+    <color name="primary_dark">#303F9F</color>
+    <color name="primary_light">#E8EAF6</color>
+    <color name="secondary">#009688</color>
+    <color name="secondary_light">#E0F2F1</color>
+
+    <color name="bg_app">#F4F6F9</color>
+    <color name="card_surface">#FFFFFF</color>
+    <color name="stroke_color">#E0E0E0</color>
+
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <color name="text_hint">#9E9E9E</color>
+
+    <color name="status_success">#2E7D32</color>
+    <color name="status_error">#C62828</color>
+    <color name="status_warning">#EF6C00</color>
+    <color name="status_info">#1565C0</color>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

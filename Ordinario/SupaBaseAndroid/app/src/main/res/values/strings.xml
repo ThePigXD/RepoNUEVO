@@ -1,0 +1,69 @@
+<resources>
+    <!-- Configuración e Identificación de la App -->
+    <string name="app_name">SupaBaseAndroid</string>
+    <string name="app_subtitle">Módulo de Persistencia Supabase</string>
+
+    <!-- Menú Principal -->
+    <string name="menu_heading">Panel de Control</string>
+    <string name="menu_subheading">Selecciona una de las operaciones CRUD para administrar el catálogo</string>
+
+    <string name="menu_create">Registrar Producto</string>
+    <string name="menu_create_desc">Añade un nuevo ítem al catálogo de Supabase</string>
+
+    <string name="menu_read">Consultar Catálogo</string>
+    <string name="menu_read_desc">Visualiza el listado completo de productos registrados</string>
+
+    <string name="menu_update">Modificar Producto</string>
+    <string name="menu_update_desc">Actualiza la información de un producto existente</string>
+
+    <string name="menu_delete">Eliminar Producto</string>
+    <string name="menu_delete_desc">Dar de baja un producto de la base de datos</string>
+
+    <!-- Formularios y Labels -->
+    <string name="label_nombre">Nombre del Producto</string>
+    <string name="label_descripcion">Descripción / Especificaciones</string>
+    <string name="label_precio">Precio (USD / MXN)</string>
+
+    <string name="hint_nombre">Ej: Laptop HP 15"</string>
+    <string name="hint_descripcion">Ej: Core i5, 16GB RAM, 512GB SSD</string>
+    <string name="hint_precio">Ej: 899.99</string>
+
+    <!-- Títulos de Actividades -->
+    <string name="title_create_activity">Nuevo Registro de Producto</string>
+    <string name="title_read_activity">Listado de Inventario</string>
+    <string name="title_update_activity">Actualización de Registro</string>
+    <string name="title_delete_activity">Gestión de Bajas</string>
+
+    <!-- Acciones de Botón -->
+    <string name="btn_guardar">Guardar Producto</string>
+    <string name="btn_actualizar">Guardar Cambios</string>
+    <string name="btn_limpiar">Limpiar Formulario</string>
+    <string name="btn_cancelar">Cancelar</string>
+    <string name="btn_seleccionar">Editar</string>
+    <string name="btn_eliminar">Eliminar</string>
+    <string name="btn_reintentar">Cargar de Nuevo</string>
+
+    <!-- Estados y Mensajes -->
+    <string name="msg_cargando">Conectando con Supabase y consultando datos...</string>
+    <string name="msg_guardando">Procesando inserción de datos...</string>
+    <string name="msg_guardado_exito">¡Producto registrado exitosamente!</string>
+    <string name="msg_actualizando">Enviando actualización a Supabase...</string>
+    <string name="msg_actualizado_exito">¡Registro actualizado con éxito!</string>
+    <string name="msg_eliminando">Borrando registro en Supabase...</string>
+    <string name="msg_eliminado_exito">¡El producto ha sido eliminado!</string>
+    <string name="msg_registros_encontrados">Total de productos en catálogo: %1$d</string>
+    <string name="msg_sin_registros">No hay productos registrados actualmente.</string>
+    <string name="msg_instruccion_update">Selecciona un producto de la lista inferior para modificar sus campos:</string>
+    <string name="msg_instruccion_delete">Haz clic en el botón de eliminar correspondiente al ítem a borrar:</string>
+    <string name="editando_producto">Editando: %1$s</string>
+
+    <!-- Errores -->
+    <string name="err_campos_vacios">Por favor completa todos los campos requeridos.</string>
+    <string name="err_precio_invalido">El valor ingresado para el precio no es un número válido.</string>
+    <string name="err_conexion">Error en la comunicación con Supabase: %1$s</string>
+    <string name="err_sin_seleccion">Primero debes seleccionar un producto de la lista.</string>
+
+    <!-- Diálogos -->
+    <string name="dialog_confirm_delete_title">Confirmar Eliminación</string>
+    <string name="dialog_confirm_delete_msg">¿Estás seguro de que deseas eliminar "%1$s"? Esta acción no se puede deshacer.</string>
+</resources>
