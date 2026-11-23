@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">OmniSens Mobile</string>
+    <string name="welcome_title">Centro de Telemetría</string>
+    <string name="welcome_subtitle">Suite de diagnóstico de sensores e instrumentación digital</string>
+    <string name="system_status_title">Estado de Sensores</string>
+    <string name="system_status_subtitle">Monitoreo activo de 6 sensores del dispositivo</string>
+
+    <!-- Drawer Menu Items -->
+    <string name="nav_home">Panel Principal</string>
+    <string name="nav_accelerometer">Acelerómetro &amp; G-Force</string>
+    <string name="nav_pedometer">Contador de Pasos</string>
+    <string name="nav_gyroscope">Giroscopio &amp; Inercia</string>
+    <string name="nav_camera">Visor de Cámara</string>
+    <string name="nav_gps">Localización GPS</string>
+    <string name="nav_magnetometer">Brújula Digital</string>
+    <string name="navigation_drawer_open">Abrir menú de navegación</string>
+    <string name="navigation_drawer_close">Cerrar menú de navegación</string>
+
+    <!-- Drawer Header -->
+    <string name="drawer_header_title">OmniSens Labs</string>
+    <string name="drawer_header_subtitle">v2.5 - Instrumentación Móvil</string>
+
+    <!-- Accelerometer Activity -->
+    <string name="title_accelerometer">Acelerómetro &amp; Fuerza G</string>
+    <string name="desc_accelerometer">Lectura de vectores tridimensionales, magnitud G y cálculo de inclinación angular.</string>
+    <string name="axis_x">Eje X</string>
+    <string name="axis_y">Eje Y</string>
+    <string name="axis_z">Eje Z</string>
+    <string name="g_force_label">Magnitud Aceleración (G)</string>
+    <string name="pitch_label">Ángulo Pitch (Eje X)</string>
+    <string name="roll_label">Ángulo Roll (Eje Y)</string>
+    <string name="peak_accel_label">Pico Aceleración Registrado:</string>
+    <string name="btn_reset_peak">Limpiar Pico</string>
+    <string name="shake_detected">¡Movimiento Brusco Detectado!</string>
+    <string name="shake_high">¡Impacto Elevado!</string>
+    <string name="shake_light">Larga Oscilación / Leve</string>
+    <string name="shake_none">Dispositivo en Reposo</string>
+
+    <!-- Pedometer Activity -->
+    <string name="title_pedometer">Monitor de Pasos</string>
+    <string name="desc_pedometer">Rastreador de zancadas, estimador de recorrido, gasto calórico y frecuencia de caminata.</string>
+    <string name="steps_label">Total Zancadas</string>
+    <string name="steps_goal_label">Objetivo Diario (5,000 pasos)</string>
+    <string name="steps_session">Pasos registrados en sesión:</string>
+    <string name="distance_label">Distancia Estimada</string>
+    <string name="calories_label">Consumo Calórico</string>
+    <string name="pace_label">Estado de Marcha</string>
+    <string name="reset_steps">Reiniciar Contador</string>
+    <string name="step_detected_event">Paso registrado</string>
+    <string name="pace_idle">Estacionario</string>
+    <string name="pace_walking">Caminata Normal</string>
+    <string name="pace_running">Carrera / Trote</string>
+
+    <!-- Gyroscope Activity -->
+    <string name="title_gyroscope">Giroscopio &amp; Inercia</string>
+    <string name="desc_gyroscope">Velocidad de rotación angular instantánea y suma acumulada de giro en ejes X, Y, Z.</string>
+    <string name="rotation_pitch">Giro Pitch (X)</string>
+    <string name="rotation_roll">Giro Roll (Y)</string>
+    <string name="rotation_yaw">Giro Yaw (Z)</string>
+    <string name="accumulated_angles">Orientación Acumulada (Grados)</string>
+    <string name="btn_calibrate_gyro">Restablecer Cero</string>
+    <string name="gyro_status_idle">Estático</string>
+    <string name="gyro_status_moving">Rotación Moderada</string>
+    <string name="gyro_status_fast">Rotación Rápida</string>
+
+    <!-- Camera Activity -->
+    <string name="title_camera">Captura de Cámara</string>
+    <string name="desc_camera">Adquisición de imágenes mediante cámara y filtros de procesamiento gráfico.</string>
+    <string name="take_photo">Capturar Fotografía</string>
+    <string name="photo_preview">Vista Previa</string>
+    <string name="filter_normal">Original</string>
+    <string name="filter_grayscale">Gris</string>
+    <string name="filter_sepia">Sepia</string>
+    <string name="filter_invert">Negativo</string>
+    <string name="photo_no_image">Ninguna imagen tomada</string>
+
+    <!-- GPS Activity -->
+    <string name="title_gps">Posicionamiento GPS</string>
+    <string name="desc_gps">Coordenadas geodésicas, velocidad de desplazamiento, precisión y registro de distancia.</string>
+    <string name="latitude">Latitud</string>
+    <string name="longitude">Longitud</string>
+    <string name="altitude">Altitud</string>
+    <string name="speed">Velocidad</string>
+    <string name="accuracy">Margen Error</string>
+    <string name="provider">Origen Datos</string>
+    <string name="gps_distance">Recorrido Total</string>
+    <string name="gps_elapsed_time">Tiempo de Rastreo</string>
+    <string name="btn_start_gps">Activar GPS</string>
+    <string name="btn_stop_gps">Desactivar GPS</string>
+    <string name="btn_open_maps">Ubicación en Mapas</string>
+    <string name="gps_searching">Conectando con satélites...</string>
+    <string name="gps_stopped">Rastreador GPS Apagado</string>
+    <string name="gps_format_dms">Formato DMS:</string>
+
+    <!-- Magnetometer Activity -->
+    <string name="title_magnetometer">Brújula Magnética</string>
+    <string name="desc_magnetometer">Dirección del campo magnético terrestre con filtrado de aguja y 16 rumbos cardinales.</string>
+    <string name="magnetic_field_total">Fuerza Magnética Total</string>
+    <string name="compass_azimuth">Azimut Magnético</string>
+    <string name="mag_normal">Campo Estándar</string>
+    <string name="mag_anomaly">¡Alerta: Perturbación Magnética!</string>
+
+    <!-- Status & Warnings -->
+    <string name="sensor_not_available">Sensor no detectado en el hardware del dispositivo.</string>
+    <string name="permission_required">Permiso necesario para habilitar esta función.</string>
+    <string name="grant_permission">Autorizar Permiso</string>
+</resources>
